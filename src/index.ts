@@ -8,7 +8,7 @@
  * Install:
  *   1. Add to settings.json `packages`:
  *        "npm:@harms-haus/pi-til-done",
- *        "npm:@steimbyte/pi-til-done-override",
+ *        "npm:@steimerbyte/pi-til-done-override",
  *      (override MUST load after pi-til-done — order doesn't matter here,
  *       the patch walks node_modules to find the target file)
  *   2. No further config needed.

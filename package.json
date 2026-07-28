@@ -1,0 +1,48 @@
+{
+  "name": "@steimbyte/pi-til-done-override",
+  "version": "1.0.0",
+  "description": "pi-coding-agent extension that patches pi-til-done MAX_AUTO_CONTINUE 20 → 100",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "pi-coding-agent",
+    "pi-extension",
+    "pi-til-done",
+    "override",
+    "auto-continue"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.82.0",
+    "@harms-haus/pi-til-done": "^1.2.0"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steimbyte/pi-til-done-override.git"
+  },
+  "bugs": {
+    "url": "https://github.com/steimbyte/pi-til-done-override/issues"
+  },
+  "homepage": "https://github.com/steimbyte/pi-til-done-override#readme"
+}

@@ -25,6 +25,10 @@
   "engines": {
     "node": ">=18"
   },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "^0.82.0",
     "@harms-haus/pi-til-done": "^1.2.0"
